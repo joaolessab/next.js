@@ -31,7 +31,7 @@ function HomePage(props){
     );
 }
 
-export async function getServerSideProps(context){
+/*export async function getServerSideProps(context){
     const req = context.req; // access to the request object
     const res = context.res; // access to the response object that will be sent back
 
@@ -42,9 +42,9 @@ export async function getServerSideProps(context){
             meetups: DUMMY_MEETUPS
         },
     };
-}
+}*/
 
-/*export async function getStaticProps(){
+export async function getStaticProps(){
     // fetch data from an API
     return {
         props: {
@@ -52,6 +52,6 @@ export async function getServerSideProps(context){
         },
         revalidate: 10
     };
-}*/
+}
 
 export default HomePage;
