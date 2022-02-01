@@ -32,8 +32,8 @@ function HomePage(props){
 }
 
 export async function getServerSideProps(context){
-    const req = context.req;
-    const res = context.res;
+    const req = context.req; // access to the request object
+    const res = context.res; // access to the response object that will be sent back
 
     // fetch data from API
 
