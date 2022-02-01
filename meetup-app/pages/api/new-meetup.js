@@ -1,14 +1,21 @@
 // api/new/meetup
 import { MongoClient } from 'mongodb';
 
-function handler(req, res){
+async function handler(req, res){
     if (req.method === 'POST'){ // POST is the only method allowed here
         const data = req.body;
 
-        const { title, image, address, description } = data;
-
         // You will never want to share this into public folders, but here there's no problem because the user will never see it
-        MongoClient.connect('mongodb+srv://joaolessab:nextjsapp@cluster0.1euve.mongodb.net/meetups?retryWrites=true&w=majority');
+        const client = await MongoClient.connect('mongodb+srv://joaolessab:nextjsapp@cluster0.1euve.mongodb.net/meetups?retryWrites=true&w=majority');
+        const db = client.db;
+
+        const meetupsCollection = db.collection('meetups');
+        const result = await meetupsCollection.insertOne(data);
+
+        console.log(result);
+        client.close();
+
+        res.status(201).json({ message: 'Meetup inserted!' });
     }
 }
 
