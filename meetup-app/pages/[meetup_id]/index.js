@@ -31,7 +31,7 @@ export async function getStaticPaths(){ // required to generate dynamic paths pr
     client.close();
 
     return {
-        fallback: false, // indicates that all supported keys are covered here
+        fallback: 'blocking', // indicates that all supported keys are covered here
         paths: meetups.map(meetup => ({
             params: { meetup_id: meetup._id.toString()},
         })),
