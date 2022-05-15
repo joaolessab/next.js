@@ -132,3 +132,14 @@
 2. On terminal, run `npx create-next-app`
 3. Follow the terminal instructions and pick your preferences;
 4. You can enter the project folder created `cd project-name` and run `npm run dev` if you would like to run the `dev` mode;
+
+## Understanding Next.js Project Structure
+- Pages, public and styles are the main folders of our project;
+
+#### Pages
+- It’s the most important one;
+- Folders created inside “pages” folder also acts like “path”;
+- For example, if you want to create a path `//domain.com-/news/`, you simply create a subfolder and add the `index.js` file;
+- You also can create sibling files to that folder:
+<img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/pages-nextjs.png" width="150"/><br/>
+- Or we can also do this with the subfolder domain: `http://localhost:3000/news/something-important`;
