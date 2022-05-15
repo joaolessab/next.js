@@ -116,4 +116,18 @@
 #### 2. File-based Routing
 - In traditional React, you don’t have a router. You have to add an external library;
 - Routing in React would look like this:
+<img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/file-base-routing.png"/>
+- A lot more of coding;
+- Next.JS defines pages and routes with files and folders instead of code;
+- It has its own structure that you have to follow, but Next will identify it automatically;
+- Less code, less work, highly understandable context;
 
+#### 3. FullStack Capabilities
+- Easily add backend (server-side) code to our Next / React Apps;
+- Storing data, getting data, authentication, etc… can be added to your React projects;
+
+## Creating the Next.JS project
+1. Download and install Node.JS (last stable version)
+2. On terminal, run `npx create-next-app`
+3. Follow the terminal instructions and pick your preferences;
+4. You can enter the project folder created `cd project-name` and run `npm run dev` if you would like to run the `dev` mode;
