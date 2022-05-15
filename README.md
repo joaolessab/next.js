@@ -234,4 +234,4 @@
 - If you’re using this function, you will have to export another function  getStaticPaths if the component it’s a dynamic page and you’re using getStaticProps;
 - If you’re using getServerSideProps, it’s not necessary;
 - The reason that we need to use this new function, is because Next.js needs to know which page it needs to generate for each ID, before making it static;
-- Check (this commit)[https://github.com/joaolessab/next.js/commit/be4aa6b729423cb039b80b4ca997ea8936a810ef];
+- Check [this commit](https://github.com/joaolessab/next.js/commit/be4aa6b729423cb039b80b4ca997ea8936a810ef);
