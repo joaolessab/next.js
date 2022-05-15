@@ -1,4 +1,10 @@
-# NEXT.JS
+# Next.js
+
+<div align="center">
+  <img src="https://github.com/joaolessab/next.js/blob/master/repo-media/logo.svg" width="450">
+</div>
+
+## How do I run your projects, João?
 
 ## What's Next.js?
 - The official website says that Next JS is the React Framework for Production;
