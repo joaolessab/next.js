@@ -143,3 +143,22 @@
 - You also can create sibling files to that folder:
 <br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/pages-nextjs.png" width="250"/><br/>
 - Or we can also do this with the subfolder domain: `http://localhost:3000/news/something-important`;
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/pages-nextjs-2.png" width="250"/><br/>
+
+#### Styles
+- Holds style files;
+
+#### Public
+- Holds public resources that our project uses;
+- In a regular React app, you have an index.js on your Public folder;
+
+## Dynamic Pages
+- To create a Dynamic page, you will have to use `[]`;
+- For example `[news_id].js`;
+- Next.js will automatically understand that:
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/dynamic-pages1.png" width="250"/><br/>
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/dynamic-pages2.png" width="250"/><br/>
+
+#### Extract Value from Dynamic URL
+- Next.js gives us a special hook for it and we can manipulate the URL arguments;
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/dynamic-pages3.png" width="350"/><br/>
