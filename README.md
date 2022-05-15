@@ -116,7 +116,7 @@
 #### 2. File-based Routing
 - In traditional React, you don’t have a router. You have to add an external library;
 - Routing in React would look like this:
-<img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/file-base-routing.png"/>
+<img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/file-base-routing.png"/>;
 - A lot more of coding;
 - Next.JS defines pages and routes with files and folders instead of code;
 - It has its own structure that you have to follow, but Next will identify it automatically;
