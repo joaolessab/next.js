@@ -7,15 +7,15 @@
 ## How do I run these projects, João?
 ### Case Study App:
 1. Clone this repo;
-2. Enter the directory <b>"case-study"</b>;
-3. On terminal, type: `npm install`;
-4. On terminal, type: `npm run dev`;
+2. Enter the directory <b>"case-study"</b>
+3. On terminal, type: `npm install`
+4. On terminal, type: `npm run dev`
 
 ### Meetup App:
 1. Clone this repo;
-2. Enter the directory <b>"meetup-app"</b>;
-3. On terminal, type: `npm install`;
-4. On terminal, type: `npm run dev`;
+2. Enter the directory <b>"meetup-app"</b>
+3. On terminal, type: `npm install`
+4. On terminal, type: `npm run dev`
 
 
 ## What's Next.js?
