@@ -96,12 +96,13 @@
 - Next JS does not provide many built-in front pages, so you have to create the whole front-end layer from the ground up;
 
 ## Features and Benefits of Next.js
-- <b>Why should we use it</b>, at all?
+- Why should we use it, at all?
 
-#### Server-side Rendering
+#### 1. Server-side Rendering
 - Basically, React loads the app on the client-side, so when fetching a data, if a component or a content depends of the data to change the state, the page can break or you the user may see a loading state on the dom that depends of the data;
 - If search optimization (from search engine crawlers) matters to you, this is an issue;
 - This feature pre-renders the react pages and components for you;
 - React has server-side loading features, but it’s hard and tricky to implement and you will need extra set up;
 - Next.js automatically pre-renders the page: that’s great for SEO and initial loads;
 - Client-side and Server-side are going to be blended in Next.JS: Fetch data on the server and render finished pages;
+
