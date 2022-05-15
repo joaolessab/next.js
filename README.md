@@ -9,7 +9,8 @@
 2. [What's Next.js](https://github.com/joaolessab/next.js#whats-nextjs);
 3. [Pros of using Next.js](https://github.com/joaolessab/next.js#pros-of-using-nextjs);
 4. [Cons of using Next.js](https://github.com/joaolessab/next.js#cons-of-using-nextjs);
-5. [Features and Benefits of Next.js](https://github.com/joaolessab/next.js#features-and-benefits-of-nextjs)
+5. [Features and Benefits of Next.js](https://github.com/joaolessab/next.js#features-and-benefits-of-nextjs);
+6. [Creating the Next.JS project](https://github.com/joaolessab/next.js#creating-the-nextjs-project);
 
 ## How do I run these projects, João?
 ### Case Study App:
