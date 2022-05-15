@@ -68,3 +68,4 @@
 #### 7. Community Support:
 - Next.js has a strong community already. 
 - Today, 15th May of 2022, it has these numbers on their official Github repo: 
+<img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/next.js-repo-numbers.png">
