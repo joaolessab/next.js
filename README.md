@@ -168,7 +168,7 @@
 - Preserver user state;
 - Better user experience of reaction;
 - Instead of using: `<a href=”//url”>` - we can use the `Link` for the Next.js component;
-<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/dynamic-pages4.png" width="350"/><br/>
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/dynamic-pages4.png" width="500"/><br/>
 - Search engines will also see the finished page;
 - We always stay on the single page app;
 - It prevents the browser default to send a request and get a new page;
@@ -177,7 +177,7 @@
 - Next.js root component will be always placed in the pages folder, named as `_app.js`;
 - You can wrap up it with everything that you want to make it default in your application. Example: main layout;
 - If it does not exist, you can create it;
-<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/root-component.png" width="350"/><br/>
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/root-component.png" width="500"/><br/>
 
 #### Programmatic Navigation
 - We can use `router` from React Hooks;
@@ -200,3 +200,22 @@
 - We want to pre-render a page on the server-side;
 <br/><br/>
 - Next.js offers us <b>2 forms of Pre-Rendering:</b>
+
+#### Static Generation (getStaticProps): 
+- If you need to fetch data, you can use Next.js special function to it: `export function getStaticProps(){ }`;
+- You can only use it inside your page component files;
+- You cannot use React Hooks inside it;
+- It does not work on other component files;
+- It will execute this function during the pre-rendering process;
+- You are now able to load data, before this component is executed;
+- You can add any code that would normally only run on a server: you can access a database, a file system, etc;
+- Any code that you write inside this function will never be displayed or executed on the client server;
+- This code is going to be executed on the server-side;
+- It will never reach your user machines;
+- It will always return an object;
+- It will always need props inside the object;
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/getstaticprops.png"/><br/>
+- Now, insert the data from the API, inside the props of component function:
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/getstaticprops2.png"/><br/>
+- Now, the full HTML page is being shown on the web;
+- It’s one of the main features of Next.js;
