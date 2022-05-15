@@ -184,3 +184,19 @@
 - React hooks can only be used on root level of the component;
 <br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/router-react-hooks.png"/><br/>
 
+#### CSS Modules (Styled Components) 
+- It comes out of the box on Next.js from React;
+- You can simply name a CSS file like this and import into a Javascript file;
+- The classes becomes unique by component;
+- It’s very similar to Styled Components;
+- You import it as “classes” (Javascript object) on your component and readable as property;
+- You can use the same CSS names into different components without crashing them;
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/styled-components.png"/><br/>
+
+## Page Pre-Rendering
+- When we use useEffect and useState to fetch data from a service API, basically the page waits until the state is refreshed with actual data. That makes the page looks empty or force developers to use Lazy Loading;
+- If we want to show information like that, it’s okay, but Next.js offers a Pre-Rendering feature which makes readable to the SEO`s engines and avoid the page to be rendered with lots of loads;
+- We want to avoid the page to be updated on the browser;
+- We want to pre-render a page on the server-side;
+<br/><br/>
+- Next.js offers us <b>2 forms of Pre-Rendering:</b>
