@@ -201,7 +201,7 @@
 <br/><br/>
 - Next.js offers us <b>2 forms of Pre-Rendering:</b>
 
-#### Static Generation (getStaticProps): 
+### Static Generation (getStaticProps): 
 - If you need to fetch data, you can use Next.js special function to it: `export function getStaticProps(){ }`;
 - You can only use it inside your page component files;
 - You cannot use React Hooks inside it;
@@ -219,3 +219,19 @@
 <br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/getstaticprops2.png"/><br/>
 - Now, the full HTML page is being shown on the web;
 - It’s one of the main features of Next.js;
+
+#### Issues of Static Generation (bad points)
+- The data could be outdated;
+- If we add a new data into our database, the frontend might not show missing data;
+- We can add an extra property, so the data will be more precise;
+- This new property is  “revalidate: 10”;
+- Revalidade wants a number and this number is the seconds that Next.js will wait into the next request;
+- When we implement that, we unlock a auto increment feature;
+- You will ensure that this page will refreshed after some time if there’s some request API coming to this object;
+- You won’t have to redeploy after some data change;
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/getstaticprops3.png" width="500"/><br/>
+- You can work with the param context here. Res and Req is not presented here, but you can use  context.params ;
+- If you’re using this function, you will have to export another function  getStaticPaths if the component it’s a dynamic page and you’re using getStaticProps;
+- If you’re using getServerSideProps, it’s not necessary;
+- The reason that we need to use this new function, is because Next.js needs to know which page it needs to generate for each ID, before making it static;
+- Check (this commit)[https://github.com/joaolessab/next.js/commit/be4aa6b729423cb039b80b4ca997ea8936a810ef];
