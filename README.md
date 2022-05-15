@@ -117,7 +117,7 @@
 #### 2. File-based Routing
 - In traditional React, you don’t have a router. You have to add an external library;
 - Routing in React would look like this:
-<img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/file-base-routing.png"/><br/>
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/file-base-routing.png"/><br/>
 - A lot more of coding;
 - Next.JS defines pages and routes with files and folders instead of code;
 - It has its own structure that you have to follow, but Next will identify it automatically;
@@ -141,5 +141,5 @@
 - Folders created inside “pages” folder also acts like “path”;
 - For example, if you want to create a path `//domain.com-/news/`, you simply create a subfolder and add the `index.js` file;
 - You also can create sibling files to that folder:
-<img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/pages-nextjs.png" width="150"/><br/>
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/pages-nextjs.png" width="250"/><br/>
 - Or we can also do this with the subfolder domain: `http://localhost:3000/news/something-important`;
