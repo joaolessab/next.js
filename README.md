@@ -4,7 +4,19 @@
   <img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/logo.svg" width="450">
 </div>
 
-## How do I run your projects, João?
+## How do I run these projects, João?
+### Case Study App:
+1. Clone this repo;
+2. Enter the directory "case-study"
+3. On terminal, type: `npm install`
+4. On terminal, type: `npm run dev`
+
+### Meetup App:
+1. Clone this repo;
+2. Enter the directory "meetup-app"
+3. On terminal, type: `npm install`
+4. On terminal, type: `npm run dev`
+
 
 ## What's Next.js?
 - The official website says that Next JS is the React Framework for Production;
