@@ -106,3 +106,7 @@
 - Next.js automatically pre-renders the page: that’s great for SEO and initial loads;
 - Client-side and Server-side are going to be blended in Next.JS: Fetch data on the server and render finished pages;
 
+#### 2. File-based Routing
+- In traditional React, you don’t have a router. You have to add an external library;
+- Routing in React would look like this:
+
