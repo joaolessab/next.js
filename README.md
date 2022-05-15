@@ -4,6 +4,13 @@
   <img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/logo.svg" width="450">
 </div>
 
+## Repository menu
+1. [Running the Projects](https://github.com/joaolessab/next.js/edit/main/README.md#how-do-i-run-these-projects-jo%C3%A3o);
+2. [What's Next.js](https://github.com/joaolessab/next.js/edit/main/README.md#whats-nextjs);
+3. [Pros of using Next.js](https://github.com/joaolessab/next.js/edit/main/README.md#pros-of-using-nextjs);
+4. [Cons of using Next.js](https://github.com/joaolessab/next.js/edit/main/README.md#cons-of-using-nextjs);
+5. [Features and Benefits of Next.js](https://github.com/joaolessab/next.js/edit/main/README.md#features-and-benefits-of-nextjs)
+
 ## How do I run these projects, João?
 ### Case Study App:
 1. Clone this repo;
@@ -26,13 +33,13 @@
 - Super Popular;
 - It gives you solution for common problems of majority of React projects;
 
-## React is a library
+### React is a library
 - Yes! To build complex user interfaces way easier than just using JavaScript;
 - You can add third-party libraries;
 - It’s really only focused on that user interface part, such as: components, state and props;
 - If you want to build large scale React projects, you will have to add extra libraries for routing, authentication, etc;
 
-## Next.js is a Framework
+### Next.js is a Framework
 - Build up using React;
 - Main difference is that: framework is bigger and has more features than a library;
 - It’s focused on more things;
@@ -40,7 +47,7 @@
 - Next.js solves common problems and makes building React apps easier;
 - You don’t have to add a lot of third-party libraries, because Next.js already has;
 
-## Summary
+### Summary
 - You still write React code, build React components and use React features (props, state, context, etc);
 - Next.js just enhances your React app and adds more features;
 
