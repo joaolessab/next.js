@@ -5,11 +5,11 @@
 </div>
 
 ## Repository menu
-1. [Running the Projects](https://github.com/joaolessab/next.js/edit/main/README.md#how-do-i-run-these-projects-jo%C3%A3o);
-2. [What's Next.js](https://github.com/joaolessab/next.js/edit/main/README.md#whats-nextjs);
-3. [Pros of using Next.js](https://github.com/joaolessab/next.js/edit/main/README.md#pros-of-using-nextjs);
-4. [Cons of using Next.js](https://github.com/joaolessab/next.js/edit/main/README.md#cons-of-using-nextjs);
-5. [Features and Benefits of Next.js](https://github.com/joaolessab/next.js/edit/main/README.md#features-and-benefits-of-nextjs)
+1. [Running the Projects](https://github.com/joaolessab/next.js#how-do-i-run-these-projects-jo%C3%A3o);
+2. [What's Next.js](https://github.com/joaolessab/next.js#whats-nextjs);
+3. [Pros of using Next.js](https://github.com/joaolessab/next.js#pros-of-using-nextjs);
+4. [Cons of using Next.js](https://github.com/joaolessab/next.js#cons-of-using-nextjs);
+5. [Features and Benefits of Next.js](https://github.com/joaolessab/next.js#features-and-benefits-of-nextjs)
 
 ## How do I run these projects, João?
 ### Case Study App:
