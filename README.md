@@ -69,3 +69,39 @@
 - Next.js has a strong community already. 
 - Today, 15th May of 2022, it has these numbers on their official Github repo: 
 <img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/next.js-repo-numbers.png">
+
+#### 8. Data Security:
+- Websites created with NextJS are static, which means there is no direct connection to the database, dependencies, user data or any other sensitive information. This ensures data security;
+
+#### 9. Lazy Loading:
+- Or code-splitting, is one of the features that allow you to cope with, and regulate, delayed loading so you only load the relevant code on your page;
+
+#### 10 Routing:
+- Next.js already comes with a routing schema. You don’t need to add external libraries for it. Also, you can create dynamic file routing. Scroll down on this document to check for more details;
+
+## Cons of using Next.js
+
+#### 1 Routing:
+- Starting with the last benefit written above, routing also has a con. 
+- Next.js is constrained to using only a file router, you cannot change the way it works with routes. Going ahead, you’ll require a Node.js server to use dynamic routes;
+
+#### 2 State Manager:
+- Next.js works as a React app. It has all the functionalities.
+- To manage state, you can use React Hooks and Context API or you will still need to use third-party libraries, such as: Redux, Recoil, etc. Click here to read more about that;
+
+#### 3. Build-time:
+- As Next.js support static building of the whole website, for apps having more pages, the build time can take a very long time to finish;
+
+#### 4. Cost of flexibility:
+- Next JS does not provide many built-in front pages, so you have to create the whole front-end layer from the ground up;
+
+## Features and Benefits of Next.js
+- <b>Why should we use it</b>, at all?
+
+#### Server-side Rendering
+- Basically, React loads the app on the client-side, so when fetching a data, if a component or a content depends of the data to change the state, the page can break or you the user may see a loading state on the dom that depends of the data;
+- If search optimization (from search engine crawlers) matters to you, this is an issue;
+- This feature pre-renders the react pages and components for you;
+- React has server-side loading features, but it’s hard and tricky to implement and you will need extra set up;
+- Next.js automatically pre-renders the page: that’s great for SEO and initial loads;
+- Client-side and Server-side are going to be blended in Next.JS: Fetch data on the server and render finished pages;
