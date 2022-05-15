@@ -1,7 +1,7 @@
 # Next.js
 
 <div align="center">
-  <img src="https://github.com/joaolessab/next.js/blob/master/repo-media/logo.svg" width="450">
+  <img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/logo.svg" width="450">
 </div>
 
 ## How do I run your projects, João?
