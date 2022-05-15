@@ -162,3 +162,25 @@
 #### Extract Value from Dynamic URL
 - Next.js gives us a special hook for it and we can manipulate the URL arguments;
 <br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/dynamic-pages3.png" width="350"/><br/>
+
+#### Single Page Routing smoothly
+- Next.js has a great feature to link routes without looking like it’s fetching data and waiting for some return;
+- Preserver user state;
+- Better user experience of reaction;
+- Instead of using: `<a href=”//url”>` - we can use the `Link` for the Next.js component;
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/dynamic-pages4.png" width="350"/><br/>
+- Search engines will also see the finished page;
+- We always stay on the single page app;
+- It prevents the browser default to send a request and get a new page;
+
+#### Root Component
+- Next.js root component will be always placed in the pages folder, named as `_app.js`;
+- You can wrap up it with everything that you want to make it default in your application. Example: main layout;
+- If it does not exist, you can create it;
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/root-component.png" width="350"/><br/>
+
+#### Programmatic Navigation
+- We can use `router` from React Hooks;
+- React hooks can only be used on root level of the component;
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/router-react-hooks.png"/><br/>
+
