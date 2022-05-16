@@ -324,6 +324,6 @@
 <br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/deploy4.png"/><br/>
 - Click on the image and check your page, for example: `https://next-js-case-study.vercel.app/`;
 - If we want to have your insertions read from the database in the dynamic pages without knowing which IDs are coming from it, we need to set the return of our array to `fallback: ‘blocking’`;
-This will make the page to wait until the data is available for the user;
+- This will make the page to wait until the data is available for the user;
 <br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/deploy5.png" width="500"/><br/>
 - Vercel always redeploys when it sees the `main branch` of the repo with new code on it;
