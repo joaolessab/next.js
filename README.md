@@ -4,7 +4,7 @@
   <img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/logo.svg" width="450">
 </div>
 
-## Repository menu
+## Repository Menu
 1. [Running these Projects (from this repository)](https://github.com/joaolessab/next.js#how-do-i-run-these-projects-jo%C3%A3o);
 2. [What's Next.js](https://github.com/joaolessab/next.js#whats-nextjs);
 3. [Pros of using Next.js](https://github.com/joaolessab/next.js#pros-of-using-nextjs);
