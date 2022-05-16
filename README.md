@@ -99,11 +99,11 @@
 
 ## Cons of using Next.js
 
-#### 1 Routing:
+#### 1. Routing:
 - Starting with the last benefit written above, routing also has a con. 
 - Next.js is constrained to using only a file router, you cannot change the way it works with routes. Going ahead, you’ll require a Node.js server to use dynamic routes;
 
-#### 2 State Manager:
+#### 2. State Manager:
 - Next.js works as a React app. It has all the functionalities.
 - To manage state, you can use React Hooks and Context API or you will still need to use third-party libraries, such as: Redux, Recoil, etc. Click here to read more about that;
 
