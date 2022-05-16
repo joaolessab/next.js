@@ -5,7 +5,7 @@
 </div>
 
 ## Repository menu
-1. [Running the Projects](https://github.com/joaolessab/next.js#how-do-i-run-these-projects-jo%C3%A3o);
+1. [Running these Projects (from this repository)](https://github.com/joaolessab/next.js#how-do-i-run-these-projects-jo%C3%A3o);
 2. [What's Next.js](https://github.com/joaolessab/next.js#whats-nextjs);
 3. [Pros of using Next.js](https://github.com/joaolessab/next.js#pros-of-using-nextjs);
 4. [Cons of using Next.js](https://github.com/joaolessab/next.js#cons-of-using-nextjs);
@@ -27,6 +27,7 @@
 
 
 ## What's Next.js?
+- [Official API](https://nextjs.org/docs/getting-started);
 - The official website says that Next JS is the React Framework for Production;
 - What does that mean?
 - Next JS calls itself like this because it offers a lot of features that make building large scale react apps easier;
@@ -224,14 +225,62 @@
 - The data could be outdated;
 - If we add a new data into our database, the frontend might not show missing data;
 - We can add an extra property, so the data will be more precise;
-- This new property is  “revalidate: 10”;
+- This new property is `“revalidate: 10”`;
 - Revalidade wants a number and this number is the seconds that Next.js will wait into the next request;
 - When we implement that, we unlock a auto increment feature;
 - You will ensure that this page will refreshed after some time if there’s some request API coming to this object;
 - You won’t have to redeploy after some data change;
 <br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/getstaticprops3.png" width="500"/><br/>
-- You can work with the param context here. Res and Req is not presented here, but you can use  context.params ;
-- If you’re using this function, you will have to export another function  getStaticPaths if the component it’s a dynamic page and you’re using getStaticProps;
-- If you’re using getServerSideProps, it’s not necessary;
+- You can work with the param context here. Res and Req is not presented here, but you can use `context.params`;
+- If you’re using this function, you will have to export another function `getStaticPaths` if the component it’s a dynamic page and you’re using `getStaticProps`;
+- If you’re using `getServerSideProps`, it’s not necessary;
 - The reason that we need to use this new function, is because Next.js needs to know which page it needs to generate for each ID, before making it static;
 - Check [this commit](https://github.com/joaolessab/next.js/commit/be4aa6b729423cb039b80b4ca997ea8936a810ef);
+
+### Server-side Rendering (getServerSideProps): 
+- Sometimes you want to rerender the page on the fly, not every couple of seconds;
+- If that’s your goal, this option might sounds better;
+- You cannot use React Hooks inside it;
+- This function will run on the server, after deployment;
+- You can work with context attribute and pass the whole API into it;
+- You cannot set revalite on this one, because it does not make any sense;
+- You can work with the param context on this function (as well in the static too). The difference is: here, you can use `context.req` and `context.res`;
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/get-server-side-props.png"/><br/>
+
+### Which one should we use? getServerSideProps X getStaticProps
+- `getServerSideProps` might sound better because it’s guaranteed to run for every request, but that can be a disadvantage, because that means that you need to wait for your page to be generated on every income request;
+- If you don’t have data that changes all the time (every second) and if you don’t need access to the request object (like authentication requests), `getStaticProps` is actually better;
+- Why is `getStaticProps` better in those conditions? Because there you pre-generate a html file that can be stored and served by a CDN and that simply is faster than regenerating and fetching that data for every income request. So, your page is going to be faster and cached;
+- Only use `getServerSideProps` if you really need access to the request object or if you really have data that changes every second (large amount);
+
+## Building an API on the Next.js
+- Create a folder called `api` in your `pages` folder;
+- Next.js automatically will turn those JS files inside this folder as an API;
+- The file names will act as path segments in the URL;
+- These JS files are not React component functions;;
+- Instead, these files will defined functions that will contain server-side code; 
+- This code will never be exposed to the final client;
+- We can use credentials on those files;
+
+## Creating, Connecting and Querying a MongoDB database
+- In this project, we will use <b>MongoDB and MongoDB Atlas</b>;
+- Try them for free [here](https://www.mongodb.com/pt-br/cloud/atlas/register);
+- Create a Shared Cluster for free [here](https://cloud.mongodb.com/v2/61f94f98fb086b4e653aef80#clusters/edit?filter=starter);
+- Create a basic Cluster;
+- Create a user under Database Access to read and write permissions;
+- Access the Network Access tab and Add your machine’s IP address or click “Allow Access from anywhere”;
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/mongo-atlas.png"/><br/>
+- Now, go to Connect to Cluster >> Connect your application;
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/mongo-atlas2.png"/><br/>
+- Install `npm install mongodb@3.6.6 --save package` in your app to connect to the cluster (Yes! Install the version 3.6.6);
+- Import MongoClient from mongodb package;
+- Creating first API call with Next.js:
+- You don’t need to worry about the credentials, because the final user will never see them;
+- Building the API file:
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/api.png"/><br/>
+- Calling the API request:
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/api2.png"/><br/>
+- Inserting some data:
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/api3.png"/><br/>
+- Data inserted on Atlas viewer >> Database >> Collection:
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/api4.png"/><br/>
