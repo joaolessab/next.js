@@ -257,7 +257,7 @@
 - Create a folder called `api` in your `pages` folder;
 - Next.js automatically will turn those JS files inside this folder as an API;
 - The file names will act as path segments in the URL;
-- These JS files are not React component functions;;
+- These JS files are not React component functions;
 - Instead, these files will defined functions that will contain server-side code; 
 - This code will never be exposed to the final client;
 - We can use credentials on those files;
@@ -284,3 +284,37 @@
 <br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/api3.png"/><br/>
 - Data inserted on Atlas viewer >> Database >> Collection:
 <br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/api4.png"/><br/>
+
+## Calling API directly in pre-rendering functions
+- If you’re using Pre-render functions to load data from your HTML component, you don’t need to call an external API, you can directly write the function inside the pre–rendering function;
+- Also, if you import a library that you will only use on pre-rendering functions, this import will not appears on the bundle of the frontend;
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/api5.png"/><br/>
+- We cannot forget to map the array and recover the ID field that’s being generated dynamically from the database:
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/api6.png" width="500"/><br/>
+
+#### Adding “HEAD” metatag to the page
+- We cannot forget to map the array and recover the ID field;
+- We have to import “Head” component and use a lot of fragments;
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/api7.png"/><br/>
+
+## Deploying Next.js app
+- To do that, I’m going to use Vercel: `https://vercel.com/`;
+- Vercel it’s a hosting provider for Next.js;
+- It belongs to the same team that developed Next.js;
+- I’m going to deploy using Github repository: `https://vercel.com/#get-started`;
+- After logging in, select the repository from your account:
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/deploy.png" width="500"/><br/>
+- We can use Vercel for other apps too, but it’s definitely optimized for Next.js;
+- For other hosting providers, you might need to minify your app and run: `npm run build`;
+- For Vercel, you don’t need to do that;
+- Go to the next Vercel page and select your options, then hit “Deploy” button:
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/deploy2.png"/><br/>
+- We’re using MongoDB Atlas, so we have to allow access from anywhere, so the Vercel servers will be able to build and interact with the repo;
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/deploy3.png"/><br/>
+- Then, you will see this screen, because your repo was deployed with success:
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/deploy4.png"/><br/>
+- Click on the image and check your page, for example: `https://next-js-case-study.vercel.app/`;
+- If we want to have your insertions read from the database in the dynamic pages without knowing which IDs are coming from it, we need to set the return of our array to `fallback: ‘blocking’`;
+This will make the page to wait until the data is available for the user;
+<br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/deploy5.png" width="500"/><br/>
+- Vercel always redeploys when it sees the `main branch` of the repo with new code on it;
