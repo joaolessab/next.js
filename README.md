@@ -105,7 +105,7 @@
 
 #### 2. State Manager:
 - Next.js works as a React app. It has all the functionalities.
-- To manage state, you can use React Hooks and Context API or you will still need to use third-party libraries, such as: Redux, Recoil, etc. Click here to read more about that;
+- To manage state, you can use React Hooks and Context API or you will still need to use third-party libraries, such as: Redux, Recoil, etc. [Click here](https://indepth.dev/posts/1487/deep-dive-into-state-management-with-react-and-nextjs) to read more about that;
 
 #### 3. Build-time:
 - As Next.js support static building of the whole website, for apps having more pages, the build time can take a very long time to finish;
