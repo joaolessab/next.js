@@ -11,6 +11,15 @@
 4. [Cons of using Next.js](https://github.com/joaolessab/next.js#cons-of-using-nextjs);
 5. [Features and Benefits of Next.js](https://github.com/joaolessab/next.js#features-and-benefits-of-nextjs);
 6. [Creating the Next.JS project](https://github.com/joaolessab/next.js#creating-the-nextjs-project);
+7. [Understanding Next.js Project Structure](https://github.com/joaolessab/next.js#understanding-nextjs-project-structure);
+8. [Dynamic Pages](https://github.com/joaolessab/next.js#dynamic-pages);
+9. [Page Pre-Rendering](https://github.com/joaolessab/next.js#page-pre-rendering)
+9.1 [Static Generation (getStaticProps)](https://github.com/joaolessab/next.js#static-generation-getstaticprops)
+9.2 [Server-side Rendering (getServerSideProps)](https://github.com/joaolessab/next.js#server-side-rendering-getserversideprops)
+10. [Building an API on the Next.js](https://github.com/joaolessab/next.js#building-an-api-on-the-nextjs)
+11. [Creating, Connecting and Querying a MongoDB database](https://github.com/joaolessab/next.js#creating-connecting-and-querying-a-mongodb-database)
+12. [Calling API directly in pre-rendering functions](https://github.com/joaolessab/next.js#calling-api-directly-in-pre-rendering-functions)
+13. [Deploying Next.js app](https://github.com/joaolessab/next.js#deploying-nextjs-app)
 
 ## How do I run these projects, João?
 ### Case Study App:
