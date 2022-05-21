@@ -5,21 +5,39 @@
 </div>
 
 ## Repository Menu
-1. [Running these Projects (from this repository)](https://github.com/joaolessab/next.js#how-do-i-run-these-projects-jo%C3%A3o);
-2. [What's Next.js](https://github.com/joaolessab/next.js#whats-nextjs);
-3. [Pros of using Next.js](https://github.com/joaolessab/next.js#pros-of-using-nextjs);
-4. [Cons of using Next.js](https://github.com/joaolessab/next.js#cons-of-using-nextjs);
-5. [Features and Benefits of Next.js](https://github.com/joaolessab/next.js#features-and-benefits-of-nextjs);
-6. [Creating the Next.JS project](https://github.com/joaolessab/next.js#creating-the-nextjs-project);
-7. [Understanding Next.js Project Structure](https://github.com/joaolessab/next.js#understanding-nextjs-project-structure);
-8. [Dynamic Pages](https://github.com/joaolessab/next.js#dynamic-pages);
-9. [Page Pre-Rendering](https://github.com/joaolessab/next.js#page-pre-rendering)
+1. [Repository Content]()
+2. [Running these Projects (from this repository)](https://github.com/joaolessab/next.js#how-do-i-run-these-projects-jo%C3%A3o);
+3. [What's Next.js](https://github.com/joaolessab/next.js#whats-nextjs);
+4. [Pros of using Next.js](https://github.com/joaolessab/next.js#pros-of-using-nextjs);
+5. [Cons of using Next.js](https://github.com/joaolessab/next.js#cons-of-using-nextjs);
+6. [Features and Benefits of Next.js](https://github.com/joaolessab/next.js#features-and-benefits-of-nextjs);
+7. [Creating the Next.JS project](https://github.com/joaolessab/next.js#creating-the-nextjs-project);
+8. [Understanding Next.js Project Structure](https://github.com/joaolessab/next.js#understanding-nextjs-project-structure);
+9. [Dynamic Pages](https://github.com/joaolessab/next.js#dynamic-pages);
+10. [Page Pre-Rendering](https://github.com/joaolessab/next.js#page-pre-rendering)
 - [Static Generation (getStaticProps)](https://github.com/joaolessab/next.js#static-generation-getstaticprops)
 - [Server-side Rendering (getServerSideProps)](https://github.com/joaolessab/next.js#server-side-rendering-getserversideprops)
-10. [Building an API on the Next.js](https://github.com/joaolessab/next.js#building-an-api-on-the-nextjs)
-11. [Creating, Connecting and Querying a MongoDB database](https://github.com/joaolessab/next.js#creating-connecting-and-querying-a-mongodb-database)
-12. [Calling API directly in pre-rendering functions](https://github.com/joaolessab/next.js#calling-api-directly-in-pre-rendering-functions)
-13. [Deploying Next.js app](https://github.com/joaolessab/next.js#deploying-nextjs-app)
+11. [Building an API on the Next.js](https://github.com/joaolessab/next.js#building-an-api-on-the-nextjs)
+12. [Creating, Connecting and Querying a MongoDB database](https://github.com/joaolessab/next.js#creating-connecting-and-querying-a-mongodb-database)
+13. [Calling API directly in pre-rendering functions](https://github.com/joaolessab/next.js#calling-api-directly-in-pre-rendering-functions)
+14. [Deploying Next.js app](https://github.com/joaolessab/next.js#deploying-nextjs-app)
+
+## Repository Content
+### Basics & Foundation (Introducting Key Features)
+- File-based Routing;
+- Page Pre-Rendering & Data Fetching;
+- Combining "Standard React" & Next.JS;
+- API Routes & Fullstack Capabilities;
+
+### Advanced Concepts (Building for Prod)
+- Optimization Opportunities;
+- Looking Behind the Scenes & Theory;
+- Deployment & Configuration;
+- Authentication;
+
+### Summaries & Refreshers (Saving your time)
+- React.JS Refresher;
+- Next.JS Summary;
 
 ## How do I run these projects, João?
 ### Case Study App:
