@@ -21,7 +21,7 @@
 12. [Creating, Connecting and Querying a MongoDB database](https://github.com/joaolessab/next.js#creating-connecting-and-querying-a-mongodb-database)
 13. [Calling API directly in pre-rendering functions](https://github.com/joaolessab/next.js#calling-api-directly-in-pre-rendering-functions)
 14. [Extra: Next.js Authentication from Scratch](https://github.com/joaolessab/next.js-authentication)
-15. [Extra: Deploying Next.js Apps](https://github.com/joaolessab/next.js#deploying-nextjs-app)
+15. [Extra: Deploying Next.js Apps](https://github.com/joaolessab/next.js#extra-deploying-nextjs-apps)
 
 ## Repository Content
 ### Basics & Foundation (Introducting Key Features)
