@@ -6,21 +6,22 @@
 
 ## Repository Menu
 1. [Repository Content](https://github.com/joaolessab/next.js#repository-content)
-2. [Running these Projects (from this repository)](https://github.com/joaolessab/next.js#how-do-i-run-these-projects-jo%C3%A3o);
-3. [What's Next.js](https://github.com/joaolessab/next.js#whats-nextjs);
-4. [Pros of using Next.js](https://github.com/joaolessab/next.js#pros-of-using-nextjs);
-5. [Cons of using Next.js](https://github.com/joaolessab/next.js#cons-of-using-nextjs);
-6. [Features and Benefits of Next.js](https://github.com/joaolessab/next.js#features-and-benefits-of-nextjs);
-7. [Creating the Next.JS project](https://github.com/joaolessab/next.js#creating-the-nextjs-project);
-8. [Understanding Next.js Project Structure](https://github.com/joaolessab/next.js#understanding-nextjs-project-structure);
-9. [Dynamic Pages](https://github.com/joaolessab/next.js#dynamic-pages);
+2. [How do I run these projects, João?](https://github.com/joaolessab/next.js#how-do-i-run-these-projects-jo%C3%A3o)
+3. [What's Next.js](https://github.com/joaolessab/next.js#whats-nextjs)
+4. [Pros of using Next.js](https://github.com/joaolessab/next.js#pros-of-using-nextjs)
+5. [Cons of using Next.js](https://github.com/joaolessab/next.js#cons-of-using-nextjs)
+6. [Features and Benefits of Next.js](https://github.com/joaolessab/next.js#features-and-benefits-of-nextjs)
+7. [Creating the Next.JS project](https://github.com/joaolessab/next.js#creating-the-nextjs-project)
+8. [Understanding Next.js Project Structure](https://github.com/joaolessab/next.js#understanding-nextjs-project-structure)
+9. [Dynamic Pages](https://github.com/joaolessab/next.js#dynamic-pages)
 10. [Page Pre-Rendering](https://github.com/joaolessab/next.js#page-pre-rendering)
 - [Static Generation (getStaticProps)](https://github.com/joaolessab/next.js#static-generation-getstaticprops)
 - [Server-side Rendering (getServerSideProps)](https://github.com/joaolessab/next.js#server-side-rendering-getserversideprops)
 11. [Building an API on the Next.js](https://github.com/joaolessab/next.js#building-an-api-on-the-nextjs)
 12. [Creating, Connecting and Querying a MongoDB database](https://github.com/joaolessab/next.js#creating-connecting-and-querying-a-mongodb-database)
 13. [Calling API directly in pre-rendering functions](https://github.com/joaolessab/next.js#calling-api-directly-in-pre-rendering-functions)
-14. [Deploying Next.js app](https://github.com/joaolessab/next.js#deploying-nextjs-app)
+14. [Extra: Next.js Authentication from Scratch](https://github.com/joaolessab/next.js-authentication)
+15. [Extra: Deploying Next.js Apps](https://github.com/joaolessab/next.js#deploying-nextjs-app)
 
 ## Repository Content
 ### Basics & Foundation (Introducting Key Features)
@@ -324,7 +325,7 @@
 - We have to import “Head” component and use a lot of fragments;
 <br/><img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/api7.png"/><br/>
 
-## Deploying Next.js app
+## Extra: Deploying Next.js Apps
 - To do that, I’m going to use Vercel: `https://vercel.com/`;
 - Vercel it’s a hosting provider for Next.js;
 - It belongs to the same team that developed Next.js;
