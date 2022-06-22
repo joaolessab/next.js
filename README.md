@@ -158,7 +158,7 @@
 
 ## Creating the Next.JS project
 1. Download and install Node.JS (last stable version)
-2. On terminal, run `npx create-next-app`
+2. On terminal, run `npx create-next-app --use-npm` or `npx create-next-app --use-yarn`
 3. Follow the terminal instructions and pick your preferences;
 4. You can enter the project folder created `cd project-name` and run `npm run dev` if you would like to run the `dev` mode;
 
