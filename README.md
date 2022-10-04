@@ -1,4 +1,4 @@
-# Next.js
+# Next.js from Scratch
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/joaolessab/next.js/main/repo-media/logo.svg" width="450">
